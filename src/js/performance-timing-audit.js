@@ -13,7 +13,7 @@ class PerformanceTimingAudit extends Audit {
   }
 
   static audit(artifacts) {
-    const timing = artifacts.PerformanceTimingGatherer.timing;
+    const timing = artifacts.PerformanceTimingGatherer;
     const diff = timing.domComplete - timing.connectStart;
     return {
       rawValue: `${ diff } ms`,
