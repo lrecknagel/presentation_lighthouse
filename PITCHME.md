@@ -39,8 +39,12 @@ Today we talk over this 3 key points..
       - Web best practices
       - Performance metrics
       - Accessebility
-- Merged into ChromeDev Tools 2017
-- Made available as nodejs module
+- Merged into Chrome DevTools also in 2017
+- Made available as nodejs module!
+
+Note:
+Interesting part => nodejs module
+Extensibility, bind to own test runners (travis ...), etc
 
 ---
 
@@ -80,11 +84,25 @@ Gatheres: inject js on page .. evaluate smth
 
 ---
 
-## Own Categories and Tests
-...
+## These categories aren´t enough
+
+![](assets/image/but-thats-not-enough.jpg "Not enough meme")
 
 ---
 
-## HL
+## Own Categories
+
+- Write own, additional audits
+- consisting of:
+    - Gatherer
+    - Audits
+    - Config
+
+---
+
+Note:
+afterPass => fire after page fully loaded
+driver => connection between lighthouse and devtools protocol
+evaluateAsync => run js in context of tab
 
 ---
