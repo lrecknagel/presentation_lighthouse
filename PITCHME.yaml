@@ -7,7 +7,7 @@
 theme : beige
 theme-override : assets/css/PITCHME.css
 highlight : hybrid
-logo : assets/image/logo.png
+logo : assets/image/pwa-lighthouse.png
 transition : slide
 published : true
 footnote : "Lucas Recknagel | 11.01.2018 | Twitter - @lucasrecknagel"
