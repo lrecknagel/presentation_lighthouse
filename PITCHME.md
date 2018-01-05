@@ -114,11 +114,11 @@ Gatheres: inject js on page .. evaluate smth
 
 ---?code=src/js/performance-timing-gatherer.js&lang=js&title=Gatherer
 
-@[1-3](Basic import with extended class.)
-@[4-6](beforePass method.)
-@[8-19](afterPass method.)
-@[10](evaluateAsync call.)
-@[1-21](whole Gatherer.)
+@[1-3](Gatherer – Basic import with extended class.)
+@[4-6](Gatherer – beforePass method.)
+@[8-19](Gatherer – afterPass method.)
+@[10](Gatherer – evaluateAsync call.)
+@[1-21](Gatherer – whole Gatherer.)
 
 Note:
 afterPass => fire after page fully loaded
@@ -127,11 +127,11 @@ evaluateAsync => run js in context of tab
 
 ---?code=src/js/performance-timing-audit.js&lang=js&title=Audit
 
-@[1-3](Basic import with extended class.)
-@[4-13](static meta override method.)
-@[15-22](static audit method.)
-@[16](Gatherer data extraction.)
-@[1-25](whole Gatherer.)
+@[1-3](Audit – Basic import with extended class.)
+@[4-13](Audit – static meta override method.)
+@[15-22](Audit – static audit method.)
+@[16](Audit – Gatherer data extraction.)
+@[1-25](Audit – whole Gatherer.)
 
 Note:
 static meta => overwrite audit meta to provide neccessary meta info
@@ -139,12 +139,12 @@ static audit => performs the audit computation
 
 ---?code=src/js/custom-config.js&lang=js&title=Config
 
-@[1-2](Default export and eslint like extention.)
-@[3-6](Passes load our gatherer the defaultPass.)
-@[7](Load our audit.)
-@[8-14](Create a new result category.)
-@[12](Weight for each audit.)
-@[1-15](Weight for each audit.)
+@[1-2](Config – Default export and eslint like extention.)
+@[3-6](Config – Passes load our gatherer the defaultPass.)
+@[7](Config – Load our audit.)
+@[8-14](Config – Create a new result category.)
+@[12](Config – Weight for each audit.)
+@[1-15](Config – Weight for each audit.)
 
 
 Note:
@@ -170,10 +170,10 @@ generate a html report file the dir of the config
 
 ---?code=src/lh_exec_runner/index.js&lang=js&title=Exec-Runner
 
-@[1-3](Util and exec imports.)
-@[7-8](Execute the lh command.)
-@[10-11](Store result in json.)
-@[1-18](Overall exec runner.)
+@[1-3](Exec – Util and exec imports.)
+@[7-8](Exec – Execute the lh command.)
+@[10-11](Exec – Store result in json.)
+@[1-18](Exec – Overall exec runner.)
 
 Note:
 how to move this into your test runner...
@@ -181,14 +181,14 @@ output to stdout exceed max stdout buffer size in most cases, write file
 
 ---?code=src/lh_programmatically/index.js&lang=js&title=Programmatically-Runner
 
-@[1-3](chromeLauncher, lh & log import)
-@[5](cfg to run only perf audits.)
-@[7-9](launch Chrome instance & set port.)
-@[10-13](execute lh on instance, kill it afterwards.)
-@[10-13](execute lh, kill Chrome and return results.)
-@[16-18](Run lh with only perf audits.)
-@[20-24](Run lh with all audits with flags.)
-@[26-33](Run lh with only perf audits with headless Chrome.)
+@[1-3](PM-Runner - chromeLauncher, lh & log import)
+@[5](PM-Runner - cfg to run only perf audits.)
+@[7-9](PM-Runner - launch Chrome instance & set port.)
+@[10-13](PM-Runner - execute lh on instance, kill it afterwards.)
+@[10-13](PM-Runner - execute lh, kill Chrome and return results.)
+@[16-18](PM-Runner - Run lh with only perf audits.)
+@[20-24](PM-Runner - Run lh with all audits with flags.)
+@[26-33](PM-Runner - Run lh with only perf audits with headless Chrome.)
 
 Note:
 Programmatically usage of chrome with lh
