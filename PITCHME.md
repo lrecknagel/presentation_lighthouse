@@ -5,7 +5,7 @@
 ## Its me
 
 @fa[user-circle] Lucas Recknagel
-![](assets/image/me.jpg "Lucas Recknagel")
+![lucas_recknagel_img](assets/image/me.jpg "Lucas Recknagel")
 
 @fa[briefcase] Exellio GmbH
 
