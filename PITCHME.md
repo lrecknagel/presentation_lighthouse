@@ -164,6 +164,10 @@ lighthouse --config-path=./custom-config.js http://dresdenjs.io --view
 Note:
 generate a html report file the dir of the config
 
+---
+
+### How to use that in my tests?
+
 ---?code=src/lh_exec_runner/index.js&lang=js&title=Exec-Runner
 
 @[1-3](Util and exec imports.)
@@ -197,9 +201,9 @@ first: how to launch Chrome and obtain results
 
 ## Chrome \-\-headless
 
-* give you a full controllable Chrome instance
-* you can do mostly everything like in the GUI
-* but with code (eg. nodejs)
+* full controllable Chrome instance (DevProtocol API)
+* mostly everything like in the GUI is possible
+* but: with code (eg. nodejs)
 * [Chrome launcher](https://github.com/GoogleChrome/chrome-launcher)
 
 Note:
@@ -208,9 +212,13 @@ really nice to use in tests
 
 ---
 
-## Puppeteer
+## Puppeteer - bring all together
 
 ![](assets/image/puppeteer.png "Puppeteer Logo")
+
+---
+
+## Puppeteer
 
 * nodejs module (lib) to work with headless Chrome
 * has lastest Chromium version built in
@@ -230,6 +238,7 @@ really nice to use in tests
 * emulate devices
 * can run code in the webpage context
 * intercept network request
+* ...
 
 ---
 
