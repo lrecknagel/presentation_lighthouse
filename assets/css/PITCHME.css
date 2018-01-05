@@ -62,6 +62,9 @@ body {
 
 img[alt="lucas_recknagel_img"] {
   width: 250px;
-  height: auto;
+  height: 225px;
   border-radius: 50%;
+  position: absolute;
+  left: 2.5%;
+  top: 5%;
 }
