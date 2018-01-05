@@ -114,7 +114,7 @@ Gatheres: inject js on page .. evaluate smth
 
 ---?code=src/js/performance-timing-gatherer.js&lang=js&title=Gatherer
 
-@[1-3,20](Basic import with extended class.)
+@[1-3](Basic import with extended class.)
 @[4-6](beforePass method.)
 @[8-19](afterPass method.)
 @[10](evaluateAsync call.)
