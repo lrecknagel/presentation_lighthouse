@@ -4,7 +4,9 @@
 
 ## Its me
 
-@fa[user-circle] Lucas Recknagel ![](./assets/image/me.jpg "Lucas Recknagel")
+@fa[user-circle] Lucas Recknagel
+![](assets/image/me.jpg "Lucas Recknagel")
+
 @fa[briefcase] Exellio GmbH
 
 @fa[code] Fullstack JavaScript Developer - Backend focused
