@@ -98,7 +98,7 @@ Gatheres: inject js on page .. evaluate smth
 
 ---
 
-## These categories aren´t enough
+## So many categories and audits ...
 
 ![](assets/image/but-thats-not-enough.jpg "Not enough meme")
 
