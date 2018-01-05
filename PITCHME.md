@@ -127,7 +127,7 @@ evaluateAsync => run js in context of tab
 
 ---?code=src/js/performance-timing-audit.js&lang=js&title=Audit
 
-@[1-3,23](Basic import with extended class.)
+@[1-3](Basic import with extended class.)
 @[4-13](static meta override method.)
 @[15-22](static audit method.)
 @[16](Gatherer data extraction.)
