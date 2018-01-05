@@ -1,9 +1,8 @@
 const Gatherer = require('lighthouse').Gatherer;
 
 class PerformanceTimingGatherer extends Gatherer {
-  beforePass(options) {
-    const { driver } = options;
-    return driver.evaluateAsync('window.performance.measure("measure_load_from_dom", "domComplete")');
+  beforePass() {
+    // something to do before Gatherer runs
   }
 
   afterPass(options) {
