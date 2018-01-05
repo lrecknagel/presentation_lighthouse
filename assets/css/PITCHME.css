@@ -22,7 +22,7 @@ body {
 .reveal pre code {
   font-size: 1.2em;
   line-height: 1.2;
-  max-height: 50vh !important;
+  max-height: 60vh !important;
   opacity: 0.95;
   border-radius: 10px;
 }
@@ -42,6 +42,7 @@ body {
   padding: 4px 15px;
   opacity: 0.75 !important;
   border-radius: 15px;
+  display: none;
 }
 
 #gp-logo img {
