@@ -20,7 +20,9 @@
 * Where I can use it and how?
 
 Note:
-Today we talk over this 3 key points..
+Today we talk over this 3 key points...
+
+gggg
 
 ---
 
@@ -60,8 +62,8 @@ Extensibility, bind to own test runners (travis ...), etc
 
 ### Its a tool to:
 
-* gain insight on whats the user experience!
-* help developers to deliver user friendlier web apps.
+* gain insight on the user experience!
+* help developers to deliver nice web apps.
 
 ---
 
@@ -80,7 +82,7 @@ Time To Interactive
 
 ---
 
-## What you also got
+## What you also get
 
 * manual check hints
 * optimization suggestions
@@ -88,7 +90,7 @@ Time To Interactive
 
 ---
 
-## How it actually works
+## How it works
 
 ![](assets/image/architecture/architecture.png "Architecture")
 
@@ -168,7 +170,7 @@ generate a html report file the dir of the config
 
 ---
 
-### How to use that in my tests?
+### How do I use that in my tests?
 
 ---?code=src/lh_exec_runner/index.js&lang=js&title=Exec-Runner
 
@@ -203,8 +205,8 @@ first: how to launch Chrome and obtain results
 
 ## Chrome \-\-headless
 
-* full controllable Chrome instance (DevProtocol API)
-* mostly everything like in the GUI is possible
+* fully controllable Chrome instance (DevProtocol API)
+* most GUI actions are possible
 * but: with code (eg. nodejs)
 * [Chrome launcher](https://github.com/GoogleChrome/chrome-launcher)
 
@@ -230,7 +232,7 @@ really nice to use in tests
 
 ## Puppeteer
 
-### Its like a "programmatic version of Selenium"
+### Its like a "nice programmatic version of Selenium"
 
 ---
 
