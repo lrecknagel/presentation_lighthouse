@@ -22,8 +22,6 @@
 Note:
 Today we talk over this 3 key points...
 
-gggg
-
 ---
 
 ## What is Lighthouse?
@@ -49,7 +47,9 @@ gggg
 
 Note:
 PWA checklist, is my webpage app like?
+
 Interesting part => nodejs module
+
 Extensibility, bind to own test runners (travis ...), etc
 
 ---
@@ -73,11 +73,17 @@ Extensibility, bind to own test runners (travis ...), etc
 
 Note:
 Flow of a page load (from the users view)
+
 Time To First Byte
+
 First non blank paint
+
 First contentful paint
+
 First meaningful paint
+
 Visually ready
+
 Time To Interactive
 
 ---
@@ -96,8 +102,11 @@ Time To Interactive
 
 Note:
 Stolen from the Google guys ...!
+
 Connected via ChromeDevTools Protocol
+
 powerful API, you can mainly control anything with that
+
 Gatheres: inject js on page .. evaluate smth
 
 ---
@@ -126,7 +135,9 @@ Gatheres: inject js on page .. evaluate smth
 
 Note:
 afterPass => fire after page fully loaded
+
 driver => connection between lighthouse and devtools protocol
+
 evaluateAsync => run js in context of tab
 
 ---?code=src/js/performance-timing-audit.js&lang=js&title=Audit
@@ -139,6 +150,7 @@ evaluateAsync => run js in context of tab
 
 Note:
 static meta => overwrite audit meta to provide neccessary meta info
+
 static audit => performs the audit computation
 
 ---?code=src/js/custom-config.js&lang=js&title=Config
@@ -153,6 +165,7 @@ static audit => performs the audit computation
 
 Note:
 Passes: number of time we reload the page
+
 Passes: load our gatherer on the defaultPass section of lh
 
 ---
@@ -181,6 +194,7 @@ generate a html report file the dir of the config
 
 Note:
 how to move this into your test runner...
+
 output to stdout exceed max stdout buffer size in most cases, write file
 
 ---?code=src/lh_programmatically/index.js&lang=js&title=Programmatically-Runner
@@ -196,9 +210,13 @@ output to stdout exceed max stdout buffer size in most cases, write file
 
 Note:
 Programmatically usage of chrome with lh
+
 first: how to launch Chrome and obtain results
+
 2nd: simple runPerfOnly
+
 3nd: simple runFullWithLogs
+
 2nd: simple runPerfOnlyHeadless
 
 ---
@@ -212,6 +230,7 @@ first: how to launch Chrome and obtain results
 
 Note:
 chrome launcher launches different version on diff platform
+
 really nice to use in tests
 
 ---
@@ -226,7 +245,7 @@ really nice to use in tests
 
 * nodejs module (lib) to work with headless Chrome
 * has lastest Chromium version built in
-* simplifies the usage of Chrome Dev Protocol (large API)
+* simplifies the usage of Chrome Dev Protocol (massive API)
 
 ---
 
