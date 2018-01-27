@@ -11,6 +11,9 @@
 
 @fa[code] Fullstack JavaScript Developer - Backend focused
 
+Note:
+My name is lucas ...
+
 ---
 
 ## Todays topic
@@ -18,6 +21,7 @@
 * What is Lighthouse?
 * How it works?
 * Where I can use it and how?
+* What comes next?
 
 Note:
 Today we talk over this 3 key points...
@@ -221,6 +225,10 @@ first: how to launch Chrome and obtain results
 
 ---
 
+## Going a step further ...
+
+---
+
 ## Chrome \-\-headless
 
 * fully controllable Chrome instance (DevProtocol API)
@@ -247,6 +255,9 @@ really nice to use in tests
 * has lastest Chromium version built in
 * simplifies the usage of Chrome Dev Protocol (massive API)
 
+Note:
+Final 1.0 on 12th January
+
 ---
 
 ## Puppeteer
@@ -262,6 +273,23 @@ really nice to use in tests
 * can run code in the webpage context
 * intercept network request
 * ...
+
+Note:
+Coverage gathers information about parts of JavaScript and CSS that were used by the page.
+
+---
+
+## Test it all
+
+* Puppeteer only Chrome (Chromium)
+* Alternatives:
+    * [Nightmare](https://github.com/segmentio/nightmare)
+    * [CodeceptJS](https://github.com/Codeception/CodeceptJS)
+
+Note:
+Nightmare: Nightmare is a high-level browser automation library
+
+CodeceptJS: testing framework for end-to-end
 
 ---
 
