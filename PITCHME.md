@@ -4,19 +4,19 @@
 
 ## Its me
 
-@fa[user-circle] Lucas Recknagel
+Lucas Recknagel
 ![lucas_recknagel_img](assets/image/me.jpg "Lucas Recknagel")
 
-@fa[briefcase] Exellio GmbH
+Exellio GmbH
 
-@fa[code] Fullstack JavaScript Developer - Backend focused
+Fullstack JavaScript Developer - Backend focused
 
 Note:
 My name is lucas ...
 
 ---
 
-## Todays topic
+## Todays topics
 
 * What is Lighthouse?
 * How it works?
@@ -40,14 +40,13 @@ Today we talk over this 3 key points...
 ## What is Lighthouse?
 
 - Version 2.0 released in 2017
-  - Check now:
-      - [PWA-Checklist](https://developers.google.com/web/progressive-web-apps/checklist)
-      - Web best practices
-      - Performance metrics
-      - Accessebility
-      - SEO metrics
+    - [PWA-Checklist](https://developers.google.com/web/progressive-web-apps/checklist)
+    - Web best practices
+    - Performance metrics
+    - Accessebility
+    - SEO metrics
 - Merged into Chrome DevTools also in 2017
-- Made available as nodejs module!
+- Available as nodejs module
 
 Note:
 current is 2.7 (Jan 2018)
@@ -70,8 +69,19 @@ Extensibility, bind to own test runners (travis ...), etc
 
 ### Its a tool to:
 
-* gain insight on the user experience!
-* help developers to deliver nice web apps.
+* gain insight on the user experience
+* help developers to deliver nice web apps
+
+---
+
+## What you also get
+
+* manual check hints
+* optimization suggestions
+* some diagnostics (eg. critical request chains)
+
+Note:
+Manual hints: CrossBrowser caompatibale, each page has URL (deeplinks)
 
 ---
 
@@ -93,14 +103,6 @@ First meaningful paint
 Visually ready
 
 Time To Interactive
-
----
-
-## What you also get
-
-* manual check hints
-* optimization suggestions
-* some diagnostics (eg. critical request chains)
 
 ---
 
@@ -235,7 +237,7 @@ first: how to launch Chrome and obtain results
 
 ## Chrome \-\-headless
 
-* fully controllable Chrome instance (DevProtocol API)
+* fully controllable Chrome instance
 * most GUI actions are possible
 * but: with code (eg. nodejs)
 * [Chrome launcher](https://github.com/GoogleChrome/chrome-launcher)
