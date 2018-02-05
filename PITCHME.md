@@ -45,16 +45,20 @@ Today we talk over this 3 key points...
       - Web best practices
       - Performance metrics
       - Accessebility
-      - SEO metrics (landed Aug 2017 in Extention)
+      - SEO metrics
 - Merged into Chrome DevTools also in 2017
 - Made available as nodejs module!
 
 Note:
+current is 2.7 (Jan 2018)
+
 PWA checklist, is my webpage app like?
 
 Interesting part => nodejs module
 
 Extensibility, bind to own test runners (travis ...), etc
+
+(SEO Aug 2017 in Extention, Jan 2018 in Chrome DevTools)
 
 ---
 
@@ -237,8 +241,9 @@ first: how to launch Chrome and obtain results
 * [Chrome launcher](https://github.com/GoogleChrome/chrome-launcher)
 
 Note:
-chrome launcher launches different version on diff platform
+but not really convenient ...
 
+chrome launcher launches different version on diff platform
 really nice to use in tests
 
 ---
@@ -251,31 +256,22 @@ really nice to use in tests
 
 ## Puppeteer
 
-* nodejs module (lib) to work with headless Chrome
+* like selenium, specific for Chrome
 * has lastest Chromium version built in
-* simplifies the usage of Chrome Dev Protocol (massive API)
+* simplifies the usage of Chrome DevProtocol
+* most Chrome functionality
 
 Note:
 Final 1.0 on 12th January
+Coverage gathers information about parts of JavaScript and CSS that were used by the page.
+https://github.com/GoogleChrome/puppeteer/blob/v1.0.0/docs/api.md#class-coverage
 
 ---
 
-## Puppeteer
-
-### Its like a "nice programmatic version of Selenium"
-
----
-
-## Puppeteer
-
-* create screenshots, pdfs
-* emulate devices
-* can run code in the webpage context
-* intercept network request
-* ...
+## Puppeteer, PhantomJS, Selenium, Nightmare
 
 Note:
-Coverage gathers information about parts of JavaScript and CSS that were used by the page.
+for chrossbrowser testing, several others
 
 ---
 
@@ -283,12 +279,13 @@ Coverage gathers information about parts of JavaScript and CSS that were used by
 
 * Puppeteer only Chrome (Chromium)
 * Alternatives:
+    * [PhantomJS](https://github.com/ariya/phantomjs)
+    * [Selenium](http://seleniumhq.github.io/selenium/docs/api/javascript/)
     * [Nightmare](https://github.com/segmentio/nightmare)
-    * [CodeceptJS](https://github.com/Codeception/CodeceptJS)
+    * ...
 
 Note:
 Nightmare: Nightmare is a high-level browser automation library
-
 CodeceptJS: testing framework for end-to-end
 
 ---
@@ -317,5 +314,6 @@ yarn global add lighthouse
 * [The web](https://google.com)
 * [Lighthouse Dev Page](https://developers.google.com/web/tools/lighthouse/)
 * [Google Developer Days India](https://developers.google.com/events/gdd-india/)
+* [Google Developer Updates](https://developers.google.com/web/updates/)
 
 ---
