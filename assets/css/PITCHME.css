@@ -22,7 +22,7 @@ body {
 .reveal pre code {
   font-size: 1.2em;
   line-height: 1.2;
-  max-height: 70vh !important;
+  max-height: 65vh !important;
   opacity: 0.95;
   border-radius: 10px;
 }
