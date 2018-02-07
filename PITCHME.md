@@ -63,7 +63,7 @@ Extensibility, bind to own test runners (travis ...), etc
 
 ## What is Lighthouse?
 
-![](assets/image/ddjs_lighthouse_audit.gif "Lighthouse Audit")
+![](assets/image/bojs_lighthouse_audit.gif "Lighthouse Audit")
 
 ---
 
@@ -183,7 +183,7 @@ Passes: load our gatherer on the defaultPass section of lh
 ## So what we got now
 
 ```bash
-lighthouse --config-path=./custom-config.js http://dresdenjs.io --view
+lighthouse --config-path=./custom-config.js https://bestof.js.org/ --view
 ```
 
 ![](assets/image/custom-perf-audit.png "Custom Perf Audit")
