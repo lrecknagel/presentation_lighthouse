@@ -43,7 +43,7 @@ Today we talk over this 3 key points...
     - [PWA-Checklist](https://developers.google.com/web/progressive-web-apps/checklist)
     - Web best practices
     - Performance metrics
-    - Accessebility
+    - Accessibility
     - SEO metrics
 - Merged into Chrome DevTools also in 2017
 - Available as nodejs module
