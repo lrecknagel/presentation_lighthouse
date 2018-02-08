@@ -45,11 +45,11 @@ Today we talk over this 3 key points...
     - Performance metrics
     - Accessibility
     - SEO metrics
-- Merged into Chrome DevTools also in 2017
+- Merged into Chrome DevTools 2017
 - Available as nodejs module
 
 Note:
-current is 2.7 (Jan 2018)
+current is 2.9 (Feb 2018)
 
 PWA checklist, is my webpage app like?
 
