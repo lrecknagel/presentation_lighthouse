@@ -67,13 +67,6 @@ Extensibility, bind to own test runners (travis ...), etc
 
 ---
 
-### Its a tool to:
-
-* gain insight on the user experience
-* help developers to deliver nice web apps
-
----
-
 ## What you also get
 
 * manual check hints
@@ -82,6 +75,13 @@ Extensibility, bind to own test runners (travis ...), etc
 
 Note:
 Manual hints: CrossBrowser caompatibale, each page has URL (deeplinks)
+
+---
+
+### Its a tool to:
+
+* gain insight on the user experience
+* help developers to deliver nice web apps
 
 ---
 
